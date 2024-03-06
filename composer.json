@@ -1,0 +1,26 @@
+{
+    "name": "kaitlyn/composerand-free-autoloading",
+    "authors": [
+        {
+            "name": "Kaitlyn Brown",
+            "email": "kaitlyn@mobile-rocket.co.uk"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.46"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
